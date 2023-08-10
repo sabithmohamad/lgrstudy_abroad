@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 
 const ServiceDetailsArea = () => {
   return (
@@ -29,7 +31,12 @@ const ServiceDetailsArea = () => {
           <div className="row">
             <div className="col-12">
               <div className="sd-big-img">
-                <img src="/assets/img/service/service-icon-10.1.jpg" alt="" />
+              <Image
+    src="/assets/img/service/service-icon-10.1.jpg"
+    alt=""
+    width={1500}
+    height={800}
+  />
               </div>
             </div>
             <div className="col-xl-6 col-lg-6">
@@ -40,7 +47,7 @@ const ServiceDetailsArea = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="sd-service-details-paragraph">
                 <p className="pb-15">At LGR Study Abroad, we stand as your unwavering partner, ensuring an admission process you can rely on, dedicated customer support, and the industry's most rewarding commissions. With access to a vast network of 100+ esteemed universities, we are your gateway to a world of educational opportunities, elevating your consultancy journey to new heights.</p>
-                <p>At LGR Study Abroad, we&apos;re not just a consultancy, we&apos;re your partners in shaping academic futures and turning dreams into reality.
+                <p>At LGR Study Abroad, we're not just a consultancy, we're your partners in shaping academic futures and turning dreams into reality.
                 </p>
               </div>
             </div>

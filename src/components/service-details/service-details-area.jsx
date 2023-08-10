@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const ServiceDetailsArea = () => {
   return (
@@ -25,9 +26,15 @@ const ServiceDetailsArea = () => {
           </div>
           <div className="row">
             <div className="col-12">
-              <div className="sd-big-img">
-              <Image src="/assets/img/service/service-icon-10.1.jpg" alt="" />
-              </div>
+            <div className="sd-big-img">
+  <Image
+    src="/assets/img/service/service-icon-10.1.jpg"
+    alt=""
+    width={1500}
+    height={800}
+  />
+</div>
+
             </div>
             <div className="col-xl-6 col-lg-6">
               <div className="sd-service-details">

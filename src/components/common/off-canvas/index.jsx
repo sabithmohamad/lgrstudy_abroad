@@ -62,10 +62,11 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <span>Contact us</span>
             <ul>
               <li>
-                <i className="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" rel="noreferrer" target="_blank">Adrres</a>
+                <i className="fas fa-star"></i> <a href="https://goo.gl/maps/abHegV4AoiJA6Syd8" rel="noreferrer" target="_blank">Adrr98 Sparrowhawk Way, Huntingdon, Cambridgeshire, England, PE29 1XY
+es</a>
               </li>
-              <li><i className="fas fa-star"></i><a href="tel:8180012345678">Phone Number</a></li>
-              <li><i className="fas fa-star"></i><a href="mailto:">Mail Id</a></li>
+              <li><i className="fas fa-star"></i><a href="tel:+44 7361 168964">+44 7361 168964</a></li>
+              <li><i className="fas fa-star"></i><a href="mailto:studyabroad@lgronline.co.uk">studyabroad@lgronline.co.uk</a></li>
             </ul>
           </div>
           <div className="tpoffcanvas__input d-none d-sm-block">

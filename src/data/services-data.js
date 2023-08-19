@@ -21,7 +21,7 @@ const services_data = [
     text_1:'As a franchise partner with LGR Study Abroad, you ll benefit from comprehensive training and ongoing support',
     text_2:'We believe in equipping our partners with the knowledge, tools, and resources they need to effectively guide students through the study abroad process.',
     home:true,
-    service_p_2:true,
+    service_p_2:false,
   },
   {
     id:3,
@@ -330,6 +330,17 @@ const services_data = [
     color:'sv-five-color',
     text_1:'Partnering with LGR Study Abroad is not just a transaction, but a collaboration for mutual growth',
     service_p_4:true,
+  },
+  {
+    id:32,
+    duration:'.7s',
+    delay:'1s',
+    img:'/assets/img/service/service-2.png',
+    title:'Benifits',
+    text_1:'As a franchise partner with LGR Study Abroad, you ll benefit from comprehensive training and ongoing support',
+    text_2:'We believe in equipping our partners with the knowledge, tools, and resources they need to effectively guide students through the study abroad process.',
+    home:true,
+    service_p_2:true,
   },
 ]
 

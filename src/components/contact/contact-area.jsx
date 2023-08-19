@@ -19,12 +19,17 @@ const ContactArea = () => {
                 </div>
                 <div className="tp-contact-info mb-40">
                   <h4 className="contact-title">Phone Number</h4>
-                  <span><a href="tel:(+44 7361 168964)">+44 7361 168964</a></span>
+                  <span><a href="tel:(+44 7361 168964)">UK: +44 7361 168964</a></span>
+                  <span><a href="tel:+91 87140 82265">INDIA: +91 87140 82265</a></span>
                   {/* <span><a href="tel:(+1255-568-6523)">(+1255 - 568 - 6523)</a></span> */}
                 </div>
                 <div className="tp-contact-info">
                   <h4 className="contact-title">Address line</h4>
-                  <span><a href="https://www.google.com/maps" target="blank">98 Sparrowhawk Way, Huntingdon, Cambridgeshire, England, PE29 1XY</a></span>
+                  <span><a href="https://www.google.com/maps" target="blank">UK: 98 Sparrowhawk Way, Huntingdon, Cambridgeshire, England, PE29 1XY</a></span><br />
+                  <span><a href="https://www.google.com/maps" target="blank">INDIA: Queens Community Centre
+                  Paduvapuram P.O
+                  Edakkunnu
+                   Kerala , India</a></span>
                 </div>
               </div>
             </div>
